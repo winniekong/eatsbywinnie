@@ -1,11 +1,24 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+div.hero {
+  color: yellow;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://picsum.photos/id/1/600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  /*   flexbox */
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  /*   viewport height */
+  height: 50vh;
+  min-height: 500px;
 }
-
-h1 {
-  font-style: italic;
-  color: #373fff;
+footer {
+  text-align: center;
 }
