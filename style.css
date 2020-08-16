@@ -31,8 +31,18 @@ h1 {
 }
 
 /* class="menu" */
+/*  
 .menu li,
 .socialmedia li {
   display: inline;
   margin-right: 3em; 
+} 
+
+header li {
+  display: inline;
+  margin-right: 3em;
+}
+*/
+.inlineElement {
+  display: inline;
 }
