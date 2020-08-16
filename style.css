@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 
+/* Font Awesome - Icons 
+https://fontawesome.com/ 
+*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 
 /* @import 'main.css'; call internally */
@@ -11,9 +14,11 @@ body {
   /*  font-family: helvetica, arial, sans-serif;
   margin: 2em; */
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
+  font-weight: 300;
 }
