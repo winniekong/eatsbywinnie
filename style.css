@@ -24,3 +24,15 @@ h1 {
   font-weight: 300;
   font-size: 3em;
 }
+
+/* class="logo" */
+.logo img {
+  display: block;
+}
+
+/* class="menu" */
+.menu li,
+.socialmedia li {
+  display: inline;
+  margin-right: 3em; 
+}
