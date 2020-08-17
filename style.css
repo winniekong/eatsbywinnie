@@ -76,13 +76,35 @@ div.hero {
   justify-content: center;
   flex-flow: column;
   text-align: center;
+  
   /*   viewport height */
   height: 50vh;
   min-height: 500px;
-    /*   viewport width */
-  width: 50vh;
-  min-width: 500px;
+  
+  /*   viewport width */
+  /* width: 50vh;
+  min-width: 200px; */
 }
+
 footer {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: pink;
+  }
 }
