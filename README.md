@@ -39,6 +39,20 @@ Where you'll write the content of your website.
 </html>
 ```
 
+
+## HTML5 Style Blocks
+
+```
+ <header></header>
+
+    <div>
+      <main></main>
+
+      <aside></aside>
+    </div>
+
+    <footer></footer>
+```
 ### ← style.css
 
 CSS files add styling rules to your content.
