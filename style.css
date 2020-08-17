@@ -19,10 +19,12 @@ body {
 }
 
 h1 {
-  font-style: italic;
+  /*   font-style: italic; */
   color: #373fff;
   font-weight: 300;
+  font-style: normal;
   font-size: 3em;
+  text-align: center;
 }
 
 /* class="logo" */
@@ -30,19 +32,25 @@ h1 {
   display: block;
 }
 
-/* class="menu" */
-/*  
-.menu li,
-.socialmedia li {
-  display: inline;
-  margin-right: 3em; 
-} 
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+/* 
 header li {
   display: inline;
   margin-right: 3em;
 }
 */
-.inlineElement {
+
+/* class="menu" */
+.menu li,
+.socialmedia li {
   display: inline;
+  margin-right: 3em;
+}
+.colorElement {
+  color: purple;
 }
