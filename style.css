@@ -95,9 +95,7 @@ footer {
     background-color: lightblue;
   }
   header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: column;
 }
 
 

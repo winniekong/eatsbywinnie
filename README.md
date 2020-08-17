@@ -12,6 +12,17 @@ That's this file, where you can tell people what your cool website does and how 
 
 Where you'll write the content of your website.
 
+---
+
+```
+<html>
+  <head>
+    <body>
+    </body>
+  </head>
+</html>
+```
+
 ### ← style.css
 
 CSS files add styling rules to your content.
