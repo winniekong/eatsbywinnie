@@ -58,3 +58,28 @@ header li {
   margin: 0;
   padding: 0;
 }
+
+div.hero {
+  color: yellow;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://picsum.photos/id/1/600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  /*   flexbox */
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  /*   viewport height */
+  height: 50vh;
+  min-height: 500px;
+}
+footer {
+  text-align: center;
+}
