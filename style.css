@@ -76,11 +76,11 @@ div.hero {
   justify-content: center;
   flex-flow: column;
   text-align: center;
-  
+
   /*   viewport height */
   height: 50vh;
   min-height: 500px;
-  
+
   /*   viewport width */
   /* width: 50vh;
   min-width: 200px; */
@@ -95,10 +95,8 @@ footer {
     background-color: lightblue;
   }
   header {
-  flex-flow: column;
-}
-
-
+    flex-flow: column;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -111,14 +109,21 @@ footer {
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+  ...;
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+  ...;
+}
 
-/* // Large devices (desktops, 992px and up) */ 
-@media (min-width: 992px) { ... }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...;
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
-
+@media (min-width: 1200px) {
+  ...;
+}
