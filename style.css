@@ -31,14 +31,14 @@ h1 {
 .logo img {
   display: block;
 }
-
+/* 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-/* 
+
 header li {
   display: inline;
   margin-right: 3em;
@@ -92,7 +92,7 @@ footer {
 
 /* <div class="carousel-inner"> */
 .carousel-inner {
-  max-height: 800px;
+  max-height: 600px;
 }
 
 @media only screen and (max-width: 600px) {
