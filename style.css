@@ -92,7 +92,7 @@ footer {
 
 /* <div class="carousel-inner"> */
 .carousel-inner {
-  max-height: 600px;
+  max-height: 800px;
 }
 
 @media only screen and (max-width: 600px) {
