@@ -181,7 +181,3 @@ footer {
 @media (min-width: 1200px) {
   ...;
 }
-
-div .about {
-  text-align: center;
-}
