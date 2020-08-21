@@ -117,48 +117,35 @@
     <main>
       <div class="container">
         <h2>
-          Cookie Recipes
+          Dessert Recipes
         </h2>
         <p></p>
-        <!--         Learn more: Row columns
-        https://getbootstrap.com/docs/4.5/layout/grid/#row-columns -->
         <div class="archives row">
           <div class="archive-post col-md-4">
             <a
-              href="https://eatsbywinnie.glitch.me/unicornchipcookies.html"
+              href="https://eatsbywinnie.glitch.me/cinnamonrolls.html"
               rel="bookmark"
-              title="Unicorn Chip Cookies"
+              title="Cinnamon Rolls"
             >
-              <!--               Learn more: Responsive images
-            https://getbootstrap.com/docs/4.5/content/images/#responsive-images -->
+              
               <img
                 class="img-fluid"
-                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2250.jpg?v=1597952152612"
-                alt="Unicorn Chip Cookies"
-                title="Unicorn Chip Cookies"
+                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2040.jpg?v=1597972671829"
+                alt="Cinnamon Rolls & Matcha Rolls"
+                title="Cinnamon Rolls & Matcha Rolls"
               />
 
-              <h5 class="title">Unicorn Chip Cookies</h5></a
+              <h5 class="title">Cinnamon Rolls</h5></a
             >
-            <div class="post-meta">July 31, 2020</div>
-          </div>
-
-          <div class="archive-post col-md-4">
             <a
-              href="https://eatsbywinnie.glitch.me/blacksesamecookies.html"
+              href="https://eatsbywinnie.glitch.me/matcharolls.html"
               rel="bookmark"
-              title="Black Sesame Cookies"
+              title="Matcha Rolls"
             >
-              <img
-                class="img-fluid"
-                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2086.jpg?v=1598027433417"
-                alt="Black Sesame Cookies"
-                title="Black Sesame Cookies"
-              />
+              <h5 class="title">Matcha Rolls</h5></a
+            >
 
-              <h5 class="title">Black Sesame Cookies</h5></a
-            >
-            <div class="post-meta">July 19, 2020</div>
+            <div class="post-meta">July 13, 2020</div>
           </div>
         </div>
       </div>
