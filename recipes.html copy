@@ -113,44 +113,73 @@
       </nav>
     </header>
 
-    <div></div>
     <main>
       <div class="container">
         <h2>
-          Dessert Recipes
+          Recipes
         </h2>
         <p></p>
+        <!--         Learn more: Row columns
+        https://getbootstrap.com/docs/4.5/layout/grid/#row-columns -->
         <div class="archives row">
           <div class="archive-post col-md-4">
             <a
-              href="https://eatsbywinnie.glitch.me/cinnamonrolls.html"
+              href="https://eatsbywinnie.glitch.me/unicornchipcookies.html"
               rel="bookmark"
-              title="Cinnamon Rolls"
+              title="Unicorn Chip Cookies"
+            >
+              <!--               Learn more: Responsive images
+            https://getbootstrap.com/docs/4.5/content/images/#responsive-images -->
+              <img
+                class="img-fluid"
+                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2250.jpg?v=1597952152612"
+                alt="Unicorn Chip Cookies"
+                title="Unicorn Chip Cookies"
+              />
+
+              <h5 class="title">Unicorn Chip Cookies</h5></a
+            >
+            <div class="post-meta">July 31, 2020</div>
+          </div>
+          <div class="archive-post col-md-4">
+            <a
+              href="https://eatsbywinnie.glitch.me/blacksesamemochicake.html"
+              rel="bookmark"
+              title="Black Sesame Mochi Cake"
             >
               <img
                 class="img-fluid"
-                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2040.jpg?v=1597972671829"
-                alt="Cinnamon Rolls & Matcha Rolls"
-                title="Cinnamon Rolls & Matcha Rolls"
+                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2109.jpg?v=1597965800643"
+                alt="Black Sesame Mochi Cake"
+                title="Black Sesame Mochi Cake"
               />
 
-              <h5 class="title">Cinnamon Rolls</h5></a
+              <h5 class="title">Black Sesame Mochi Cake</h5></a
             >
+            <div class="post-meta">July 21, 2020</div>
+          </div>
+          <div class="archive-post col-md-4">
             <a
-              href="https://eatsbywinnie.glitch.me/matcharolls.html"
+              href="https://eatsbywinnie.glitch.me/blacksesamecookies.html"
               rel="bookmark"
-              title="Matcha Rolls"
+              title="Black Sesame Cookies"
             >
-              <h5 class="title">Matcha Rolls</h5></a
-            >
+              <img
+                class="img-fluid"
+                src="https://cdn.glitch.com/d095048d-7875-41ea-bb53-a7c5b4ad55fd%2FIMG_2086.jpg?v=1598027433417"
+                alt="Black Sesame Cookies"
+                title="Black Sesame Cookies"
+              />
 
-            <div class="post-meta">July 13, 2020</div>
+              <h5 class="title">Black Sesame Cookies</h5></a
+            >
+            <div class="post-meta">July 19, 2020</div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer>
+    <footer class="mt-5">
       <p>
         &copy; 2020 Eats By Winnie
       </p>
@@ -166,12 +195,6 @@
         </li>
       </ul>
     </footer>
-
-    <!--  
-Additional HTML5 element tags
-    <article></article>
-    <section></section> 
--->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
